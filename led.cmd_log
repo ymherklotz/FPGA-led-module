@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/yannherklotz/Github/FPGA-led-lights/led.xst" -ofn "/home/yannherklotz/Github/FPGA-led-lights/led.syr" 
