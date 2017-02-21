@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2017-02-19T23:10:42</DateModified>
+  <DateModified>2017-02-20T16:00:35</DateModified>
   <ModuleName>led</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>/home/yannherklotz/Github/FPGA-led-lights/iseconfig/led.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/yannherklotz/Github/FPGA-led-lights</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>/home/yannherklotz/Github/FPGA-led-lights/</ImplementationReportsDirectory>
   <DateInitialized>2017-02-19T23:10:42</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
