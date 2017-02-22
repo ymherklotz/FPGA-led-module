@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/yannherklotz/Github/FPGA-led-lights/led.ncd
+OUTFILE=/home/yannherklotz/Github/FPGA-led-lights/led.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=/home/yannherklotz/Github/FPGA-led-lights
+LICENSE=WebPack
+USER_INFO=211291888_0_0_214

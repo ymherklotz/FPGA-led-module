@@ -1,0 +1,160 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Tue Feb 21 20:20:00 2017
+# Process ID: 7603
+# Log file: /home/yannherklotz/Github/FPGA-led-lights/planAhead_run_1/planAhead.log
+# Journal file: /home/yannherklotz/Github/FPGA-led-lights/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source /home/yannherklotz/Github/FPGA-led-lights/pa.fromHdl.tcl
+# create_project -name FPGA-led-lights -dir "/home/yannherklotz/Github/FPGA-led-lights/planAhead_run_1" -part xc3s250evq100-4
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf" [current_fileset -constrset]
+Adding file '/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {led.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top led $srcset
+# add_files [list {/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s250evq100-4
+Using Verific elaboration
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "/home/yannherklotz/Github/FPGA-led-lights/led.v" into library work
+INFO: [Designutils 20-910] Reading macro library /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3e/spartan3e/xc3s250e/ClockRegion.xml
+Loading clock buffers from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3e/spartan3e/xc3s250e/ClockBuffers.xml
+Loading package from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3e/spartan3e/xc3s250e/vq100/Package.xml
+Loading io standards from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3e/spartan3e/xc3s250e/vq100/SSORules.xml
+Loading list of drcs for the architecture : /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P144 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:25]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P101 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:30]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P51 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:33]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P56 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:34]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P75 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:39]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P81 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:41]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P93 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:45]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P100 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:47]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B(0)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:48]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B(0)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:48]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P97 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:49]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B(2)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:50]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B(2)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:50]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P87 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:51]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B(4)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:52]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B(4)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:52]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P82 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:53]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P80 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:54]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B(7)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:55]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B(7)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:55]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P74 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:56]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B(9)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:57]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B(9)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:57]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B(10)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:58]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B(10)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:58]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P59 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:59]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B(12)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:60]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B(12)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:60]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P55 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:61]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B(14)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:62]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B(14)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:62]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B(15)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:63]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B(15)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:63]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P114 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:64]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P115 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:65]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P116 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:66]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P117 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:67]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P118 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:68]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P119 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:69]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P120 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:70]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P121 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:71]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P123 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:72]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P124 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:73]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P126 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:74]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P127 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:75]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P131 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:76]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P132 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:77]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P133 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:78]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P134 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:79]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P140 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:80]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P139 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:81]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P138 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:82]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P137 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:83]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P46 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:84]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P45 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:85]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_ADDR(6)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:86]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_ADDR(6)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:86]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_ADDR(7)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:87]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_ADDR(7)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:87]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_ADDR(8)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:88]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_ADDR(8)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:88]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_ADDR(9)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:89]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_ADDR(9)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:89]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P141 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:90]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_ADDR(11)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:91]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_ADDR(11)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:91]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_ADDR(12)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:92]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_ADDR(12)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:92]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_DATA(0)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:93]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_DATA(0)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:93]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_DATA(1)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:94]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_DATA(1)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:94]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_DATA(2)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:95]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_DATA(2)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:95]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_DATA(3)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:96]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_DATA(3)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:96]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P14 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:97]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_DATA(5)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:98]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_DATA(5)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:98]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_DATA(6)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:99]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_DATA(6)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:99]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P8 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:100]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P21 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:101]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_DATA(9)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:102]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_DATA(9)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:102]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_DATA(10)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:103]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_DATA(10)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:103]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_DATA(11)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:104]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_DATA(11)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:104]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_DATA(12)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:105]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'SDRAM_DATA(12)' [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:105]
+INFO: [Common 17-14] Message 'Constraints 18-11' appears 50 times and further instances of the messages will be disabled. Use the Tcl command set_msg_limit to change the current settings.
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P29 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:107]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P7 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:109]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P143 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:111]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P142 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:112]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P6 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:113]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P1 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:116]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P112 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:119]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P107 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:120]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P109 [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf:121]
+INFO: [Common 17-14] Message 'Designutils 20-30' appears 50 times and further instances of the messages will be disabled. Use the Tcl command set_msg_limit to change the current settings.
+Finished Parsing UCF File [/home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: a999cfc1
+update_compile_order -fileset sim_1
+exit
+ERROR: [#UNDEF] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+ (See /home/yannherklotz/Github/FPGA-led-lights/planAhead_pid7603.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Feb 21 20:21:04 2017...
+INFO: [Common 17-83] Releasing license: PlanAhead

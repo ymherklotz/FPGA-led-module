@@ -1,1 +1,131 @@
 xst -intstyle ise -ifn "/home/yannherklotz/Github/FPGA-led-lights/led.xst" -ofn "/home/yannherklotz/Github/FPGA-led-lights/led.syr" 
+xst -intstyle ise -ifn "/home/yannherklotz/Github/FPGA-led-lights/led.xst" -ofn "/home/yannherklotz/Github/FPGA-led-lights/led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc3s250e-vq100-4 led.ngc led.ngd  
+xst -intstyle ise -ifn "/home/yannherklotz/Github/FPGA-led-lights/led.xst" -ofn "/home/yannherklotz/Github/FPGA-led-lights/led.syr" 
+xst -intstyle ise -ifn "/home/yannherklotz/Github/FPGA-led-lights/led.xst" -ofn "/home/yannherklotz/Github/FPGA-led-lights/led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc3s250e-vq100-4 led.ngc led.ngd  
+xst -intstyle ise -ifn "/home/yannherklotz/Github/FPGA-led-lights/led.xst" -ofn "/home/yannherklotz/Github/FPGA-led-lights/led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc3s250e-vq100-4 led.ngc led.ngd  
+map -intstyle ise -p xc3s250e-vq100-4 -cm area -ir off -pr off -c 100 -o led_map.ncd led.ngd led.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc3s250e-vq100-4 led.ngc led.ngd  
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc3s250e-vq100-4 led.ngc led.ngd  
+xst -intstyle ise -ifn "/home/yannherklotz/Github/FPGA-led-lights/led.xst" -ofn "/home/yannherklotz/Github/FPGA-led-lights/led.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc3s250e-vq100-4 led.ngc led.ngd  
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc3s250e-vq100-4 led.ngc led.ngd  
+map -intstyle ise -p xc3s250e-vq100-4 -cm area -ir off -pr off -c 100 -o led_map.ncd led.ngd led.pcf 
+xst -intstyle ise -ifn "/home/yannherklotz/Github/FPGA-led-lights/led.xst" -ofn "/home/yannherklotz/Github/FPGA-led-lights/led.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc3s250e-vq100-4 led.ngc led.ngd  
+map -intstyle ise -p xc3s250e-vq100-4 -cm area -ir off -pr off -c 100 -o led_map.ncd led.ngd led.pcf 
+xst -intstyle ise -ifn "/home/yannherklotz/Github/FPGA-led-lights/led.xst" -ofn "/home/yannherklotz/Github/FPGA-led-lights/led.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc3s250e-vq100-4 led.ngc led.ngd  
+map -intstyle ise -p xc3s250e-vq100-4 -cm area -ir off -pr off -c 100 -o led_map.ncd led.ngd led.pcf 
+xst -intstyle ise -ifn "/home/yannherklotz/Github/FPGA-led-lights/led.xst" -ofn "/home/yannherklotz/Github/FPGA-led-lights/led.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc3s250e-vq100-4 led.ngc led.ngd  
+map -intstyle ise -p xc3s250e-vq100-4 -cm area -ir off -pr off -c 100 -o led_map.ncd led.ngd led.pcf 
+par -w -intstyle ise -ol high -t 1 led_map.ncd led.ncd led.pcf 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc3s250e-vq100-4 led.ngc led.ngd  
+map -intstyle ise -p xc3s250e-vq100-4 -cm area -ir off -pr off -c 100 -o led_map.ncd led.ngd led.pcf 
+par -w -intstyle ise -ol high -t 1 led_map.ncd led.ncd led.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml led.twx led.ncd -o led.twr led.pcf 
+bitgen -intstyle ise -f led.ut led.ncd 
+xst -intstyle ise -ifn "/home/yannherklotz/Github/FPGA-led-lights/led.xst" -ofn "/home/yannherklotz/Github/FPGA-led-lights/led.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc3s250e-vq100-4 led.ngc led.ngd  
+map -intstyle ise -p xc3s250e-vq100-4 -cm area -ir off -pr off -c 100 -o led_map.ncd led.ngd led.pcf 
+par -w -intstyle ise -ol high -t 1 led_map.ncd led.ncd led.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml led.twx led.ncd -o led.twr led.pcf 
+bitgen -intstyle ise -f led.ut led.ncd 
+xst -intstyle ise -ifn "/home/yannherklotz/Github/FPGA-led-lights/led.xst" -ofn "/home/yannherklotz/Github/FPGA-led-lights/led.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc3s250e-vq100-4 led.ngc led.ngd  
+map -intstyle ise -p xc3s250e-vq100-4 -cm area -ir off -pr off -c 100 -o led_map.ncd led.ngd led.pcf 
+par -w -intstyle ise -ol high -t 1 led_map.ncd led.ncd led.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml led.twx led.ncd -o led.twr led.pcf 
+bitgen -intstyle ise -f led.ut led.ncd 
+xst -intstyle ise -ifn "/home/yannherklotz/Github/FPGA-led-lights/led.xst" -ofn "/home/yannherklotz/Github/FPGA-led-lights/led.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc3s250e-vq100-4 led.ngc led.ngd  
+map -intstyle ise -p xc3s250e-vq100-4 -cm area -ir off -pr off -c 100 -o led_map.ncd led.ngd led.pcf 
+par -w -intstyle ise -ol high -t 1 led_map.ncd led.ncd led.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml led.twx led.ncd -o led.twr led.pcf 
+bitgen -intstyle ise -f led.ut led.ncd 
+xst -intstyle ise -ifn "/home/yannherklotz/Github/FPGA-led-lights/led.xst" -ofn "/home/yannherklotz/Github/FPGA-led-lights/led.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc6slx9-tqg144-3 led.ngc led.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_map.ncd led.ngd led.pcf 
+par -w -intstyle ise -ol high -mt off led_map.ncd led.ncd led.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml led.twx led.ncd -o led.twr led.pcf 
+bitgen -intstyle ise -f led.ut led.ncd 
+xst -intstyle ise -ifn "/home/yannherklotz/Github/FPGA-led-lights/led.xst" -ofn "/home/yannherklotz/Github/FPGA-led-lights/led.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc6slx9-tqg144-3 led.ngc led.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_map.ncd led.ngd led.pcf 
+par -w -intstyle ise -ol high -mt off led_map.ncd led.ncd led.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml led.twx led.ncd -o led.twr led.pcf 
+bitgen -intstyle ise -f led.ut led.ncd 
+xst -intstyle ise -ifn "/home/yannherklotz/Github/FPGA-led-lights/led.xst" -ofn "/home/yannherklotz/Github/FPGA-led-lights/led.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc6slx9-tqg144-2 led.ngc led.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_map.ncd led.ngd led.pcf 
+par -w -intstyle ise -ol high -mt off led_map.ncd led.ncd led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led.twx led.ncd -o led.twr led.pcf 
+bitgen -intstyle ise -f led.ut led.ncd 
+xst -intstyle ise -ifn "/home/yannherklotz/Github/FPGA-led-lights/led.xst" -ofn "/home/yannherklotz/Github/FPGA-led-lights/led.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc6slx9-tqg144-2 led.ngc led.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_map.ncd led.ngd led.pcf 
+par -w -intstyle ise -ol high -mt off led_map.ncd led.ncd led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led.twx led.ncd -o led.twr led.pcf 
+bitgen -intstyle ise -f led.ut led.ncd 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc6slx9-tqg144-2 led.ngc led.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_map.ncd led.ngd led.pcf 
+par -w -intstyle ise -ol high -mt off led_map.ncd led.ncd led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led.twx led.ncd -o led.twr led.pcf 
+bitgen -intstyle ise -f led.ut led.ncd 
+xst -intstyle ise -ifn "/home/yannherklotz/Github/FPGA-led-lights/led.xst" -ofn "/home/yannherklotz/Github/FPGA-led-lights/led.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc6slx9-tqg144-2 led.ngc led.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_map.ncd led.ngd led.pcf 
+par -w -intstyle ise -ol high -mt off led_map.ncd led.ncd led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led.twx led.ncd -o led.twr led.pcf 
+bitgen -intstyle ise -f led.ut led.ncd 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc6slx9-tqg144-2 led.ngc led.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_map.ncd led.ngd led.pcf 
+par -w -intstyle ise -ol high -mt off led_map.ncd led.ncd led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led.twx led.ncd -o led.twr led.pcf 
+bitgen -intstyle ise -f led.ut led.ncd 
+xst -intstyle ise -ifn "/home/yannherklotz/Github/FPGA-led-lights/led.xst" -ofn "/home/yannherklotz/Github/FPGA-led-lights/led.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc6slx9-tqg144-2 led.ngc led.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_map.ncd led.ngd led.pcf 
+par -w -intstyle ise -ol high -mt off led_map.ncd led.ncd led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led.twx led.ncd -o led.twr led.pcf 
+bitgen -intstyle ise -f led.ut led.ncd 
+xst -intstyle ise -ifn "/home/yannherklotz/Github/FPGA-led-lights/led.xst" -ofn "/home/yannherklotz/Github/FPGA-led-lights/led.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc6slx9-tqg144-2 led.ngc led.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_map.ncd led.ngd led.pcf 
+par -w -intstyle ise -ol high -mt off led_map.ncd led.ncd led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led.twx led.ncd -o led.twr led.pcf 
+bitgen -intstyle ise -f led.ut led.ncd 
+xst -intstyle ise -ifn "/home/yannherklotz/Github/FPGA-led-lights/led.xst" -ofn "/home/yannherklotz/Github/FPGA-led-lights/led.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc6slx9-tqg144-2 led.ngc led.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_map.ncd led.ngd led.pcf 
+par -w -intstyle ise -ol high -mt off led_map.ncd led.ncd led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led.twx led.ncd -o led.twr led.pcf 
+bitgen -intstyle ise -f led.ut led.ncd 
+xst -intstyle ise -ifn "/home/yannherklotz/Github/FPGA-led-lights/led.xst" -ofn "/home/yannherklotz/Github/FPGA-led-lights/led.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc6slx9-tqg144-2 led.ngc led.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_map.ncd led.ngd led.pcf 
+par -w -intstyle ise -ol high -mt off led_map.ncd led.ncd led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led.twx led.ncd -o led.twr led.pcf 
+bitgen -intstyle ise -f led.ut led.ncd 
+xst -intstyle ise -ifn "/home/yannherklotz/Github/FPGA-led-lights/led.xst" -ofn "/home/yannherklotz/Github/FPGA-led-lights/led.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc6slx9-tqg144-2 led.ngc led.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_map.ncd led.ngd led.pcf 
+par -w -intstyle ise -ol high -mt off led_map.ncd led.ncd led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led.twx led.ncd -o led.twr led.pcf 
+bitgen -intstyle ise -f led.ut led.ncd 
+xst -intstyle ise -ifn "/home/yannherklotz/Github/FPGA-led-lights/led.xst" -ofn "/home/yannherklotz/Github/FPGA-led-lights/led.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc /home/yannherklotz/Downloads/BPC3011-Papilio_Pro-general.ucf -p xc6slx9-tqg144-2 led.ngc led.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_map.ncd led.ngd led.pcf 
+par -w -intstyle ise -ol high -mt off led_map.ncd led.ncd led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led.twx led.ncd -o led.twr led.pcf 
+bitgen -intstyle ise -f led.ut led.ncd 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc BPC3011-Papilio_Pro-general.ucf -p xc6slx9-tqg144-2 led.ngc led.ngd  
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc BPC3011-Papilio_Pro-general.ucf -p xc6slx9-tqg144-2 led.ngc led.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_map.ncd led.ngd led.pcf 
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_map.ncd led.ngd led.pcf 
+par -w -intstyle ise -ol high -mt off led_map.ncd led.ncd led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led.twx led.ncd -o led.twr led.pcf -ucf BPC3011-Papilio_Pro-general.ucf 
+bitgen -intstyle ise -f led.ut led.ncd 

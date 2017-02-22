@@ -1,0 +1,1657 @@
+Release 14.7 ngdbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
+ise -dd _ngo -aul -nt timestamp -uc BPC3011-Papilio_Pro-general.ucf -p
+xc6slx9-tqg144-2 led.ngc led.ngd
+
+Reading NGO file "/home/yannherklotz/Github/FPGA-led-lights/led.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "BPC3011-Papilio_Pro-general.ucf"
+...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:59 - Constraint <NET RX             LOC="P101" |>
+   [BPC3011-Papilio_Pro-general.ucf(30)]: NET "RX" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET RX             LOC="P101" |> [BPC3011-Papilio_Pro-general.ucf(30)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [BPC3011-Papilio_Pro-general.ucf(30)]: NET "RX" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [BPC3011-Papilio_Pro-general.ucf(30)]: NET "RX" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;>
+   [BPC3011-Papilio_Pro-general.ucf(30)]: NET "RX" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET A(0)           LOC="P48"  |>
+   [BPC3011-Papilio_Pro-general.ucf(32)]: NET "A(0)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET A(0)           LOC="P48"  |> [BPC3011-Papilio_Pro-general.ucf(32)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(32)]: NET "A(0)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET A(1)           LOC="P51"  |>
+   [BPC3011-Papilio_Pro-general.ucf(33)]: NET "A(1)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET A(1)           LOC="P51"  |> [BPC3011-Papilio_Pro-general.ucf(33)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(33)]: NET "A(1)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET A(2)           LOC="P56"  |>
+   [BPC3011-Papilio_Pro-general.ucf(34)]: NET "A(2)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET A(2)           LOC="P56"  |> [BPC3011-Papilio_Pro-general.ucf(34)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(34)]: NET "A(2)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET A(3)           LOC="P58"  |>
+   [BPC3011-Papilio_Pro-general.ucf(35)]: NET "A(3)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET A(3)           LOC="P58"  |> [BPC3011-Papilio_Pro-general.ucf(35)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(35)]: NET "A(3)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET A(4)           LOC="P61"  |>
+   [BPC3011-Papilio_Pro-general.ucf(36)]: NET "A(4)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET A(4)           LOC="P61"  |> [BPC3011-Papilio_Pro-general.ucf(36)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(36)]: NET "A(4)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET A(5)           LOC="P66"  |>
+   [BPC3011-Papilio_Pro-general.ucf(37)]: NET "A(5)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET A(5)           LOC="P66"  |> [BPC3011-Papilio_Pro-general.ucf(37)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(37)]: NET "A(5)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET A(6)           LOC="P67"  |>
+   [BPC3011-Papilio_Pro-general.ucf(38)]: NET "A(6)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET A(6)           LOC="P67"  |> [BPC3011-Papilio_Pro-general.ucf(38)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(38)]: NET "A(6)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET A(7)           LOC="P75"  |>
+   [BPC3011-Papilio_Pro-general.ucf(39)]: NET "A(7)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET A(7)           LOC="P75"  |> [BPC3011-Papilio_Pro-general.ucf(39)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(39)]: NET "A(7)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET A(8)           LOC="P79"  |>
+   [BPC3011-Papilio_Pro-general.ucf(40)]: NET "A(8)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET A(8)           LOC="P79"  |> [BPC3011-Papilio_Pro-general.ucf(40)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(40)]: NET "A(8)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET A(9)           LOC="P81"  |>
+   [BPC3011-Papilio_Pro-general.ucf(41)]: NET "A(9)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET A(9)           LOC="P81"  |> [BPC3011-Papilio_Pro-general.ucf(41)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(41)]: NET "A(9)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET A(10)          LOC="P83"  |>
+   [BPC3011-Papilio_Pro-general.ucf(42)]: NET "A(10)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET A(10)          LOC="P83"  |> [BPC3011-Papilio_Pro-general.ucf(42)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(42)]: NET "A(10)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET A(11)          LOC="P85"  |>
+   [BPC3011-Papilio_Pro-general.ucf(43)]: NET "A(11)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET A(11)          LOC="P85"  |> [BPC3011-Papilio_Pro-general.ucf(43)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(43)]: NET "A(11)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET A(12)          LOC="P88"  |>
+   [BPC3011-Papilio_Pro-general.ucf(44)]: NET "A(12)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET A(12)          LOC="P88"  |> [BPC3011-Papilio_Pro-general.ucf(44)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(44)]: NET "A(12)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET A(13)          LOC="P93"  |>
+   [BPC3011-Papilio_Pro-general.ucf(45)]: NET "A(13)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET A(13)          LOC="P93"  |> [BPC3011-Papilio_Pro-general.ucf(45)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(45)]: NET "A(13)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET A(14)          LOC="P98"  |>
+   [BPC3011-Papilio_Pro-general.ucf(46)]: NET "A(14)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET A(14)          LOC="P98"  |> [BPC3011-Papilio_Pro-general.ucf(46)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(46)]: NET "A(14)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET A(15)          LOC="P100" |>
+   [BPC3011-Papilio_Pro-general.ucf(47)]: NET "A(15)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET A(15)          LOC="P100" |> [BPC3011-Papilio_Pro-general.ucf(47)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(47)]: NET "A(15)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET B(0)           LOC="P99"  |>
+   [BPC3011-Papilio_Pro-general.ucf(48)]: NET "B(0)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET B(0)           LOC="P99"  |> [BPC3011-Papilio_Pro-general.ucf(48)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(48)]: NET "B(0)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET B(1)           LOC="P97"  |>
+   [BPC3011-Papilio_Pro-general.ucf(49)]: NET "B(1)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET B(1)           LOC="P97"  |> [BPC3011-Papilio_Pro-general.ucf(49)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(49)]: NET "B(1)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET B(2)           LOC="P92"  |>
+   [BPC3011-Papilio_Pro-general.ucf(50)]: NET "B(2)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET B(2)           LOC="P92"  |> [BPC3011-Papilio_Pro-general.ucf(50)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(50)]: NET "B(2)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET B(3)           LOC="P87"  |>
+   [BPC3011-Papilio_Pro-general.ucf(51)]: NET "B(3)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET B(3)           LOC="P87"  |> [BPC3011-Papilio_Pro-general.ucf(51)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(51)]: NET "B(3)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET B(4)           LOC="P84"  |>
+   [BPC3011-Papilio_Pro-general.ucf(52)]: NET "B(4)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET B(4)           LOC="P84"  |> [BPC3011-Papilio_Pro-general.ucf(52)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(52)]: NET "B(4)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET B(5)           LOC="P82"  |>
+   [BPC3011-Papilio_Pro-general.ucf(53)]: NET "B(5)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET B(5)           LOC="P82"  |> [BPC3011-Papilio_Pro-general.ucf(53)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(53)]: NET "B(5)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET B(6)           LOC="P80"  |>
+   [BPC3011-Papilio_Pro-general.ucf(54)]: NET "B(6)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET B(6)           LOC="P80"  |> [BPC3011-Papilio_Pro-general.ucf(54)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(54)]: NET "B(6)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET B(7)           LOC="P78"  |>
+   [BPC3011-Papilio_Pro-general.ucf(55)]: NET "B(7)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET B(7)           LOC="P78"  |> [BPC3011-Papilio_Pro-general.ucf(55)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(55)]: NET "B(7)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET B(8)           LOC="P74"  |>
+   [BPC3011-Papilio_Pro-general.ucf(56)]: NET "B(8)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET B(8)           LOC="P74"  |> [BPC3011-Papilio_Pro-general.ucf(56)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(56)]: NET "B(8)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET B(9)           LOC="P95"  |>
+   [BPC3011-Papilio_Pro-general.ucf(57)]: NET "B(9)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET B(9)           LOC="P95"  |> [BPC3011-Papilio_Pro-general.ucf(57)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(57)]: NET "B(9)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET B(10)          LOC="P62"  |>
+   [BPC3011-Papilio_Pro-general.ucf(58)]: NET "B(10)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET B(10)          LOC="P62"  |> [BPC3011-Papilio_Pro-general.ucf(58)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(58)]: NET "B(10)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET B(11)          LOC="P59"  |>
+   [BPC3011-Papilio_Pro-general.ucf(59)]: NET "B(11)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET B(11)          LOC="P59"  |> [BPC3011-Papilio_Pro-general.ucf(59)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(59)]: NET "B(11)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET B(12)          LOC="P57"  |>
+   [BPC3011-Papilio_Pro-general.ucf(60)]: NET "B(12)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET B(12)          LOC="P57"  |> [BPC3011-Papilio_Pro-general.ucf(60)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(60)]: NET "B(12)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET B(13)          LOC="P55"  |>
+   [BPC3011-Papilio_Pro-general.ucf(61)]: NET "B(13)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET B(13)          LOC="P55"  |> [BPC3011-Papilio_Pro-general.ucf(61)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(61)]: NET "B(13)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET B(14)          LOC="P50"  |>
+   [BPC3011-Papilio_Pro-general.ucf(62)]: NET "B(14)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET B(14)          LOC="P50"  |> [BPC3011-Papilio_Pro-general.ucf(62)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(62)]: NET "B(14)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET B(15)          LOC="P47"  |>
+   [BPC3011-Papilio_Pro-general.ucf(63)]: NET "B(15)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET B(15)          LOC="P47"  |> [BPC3011-Papilio_Pro-general.ucf(63)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(63)]: NET "B(15)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET C(0)           LOC="P114" |>
+   [BPC3011-Papilio_Pro-general.ucf(64)]: NET "C(0)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET C(0)           LOC="P114" |> [BPC3011-Papilio_Pro-general.ucf(64)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(64)]: NET "C(0)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET C(1)           LOC="P115" |>
+   [BPC3011-Papilio_Pro-general.ucf(65)]: NET "C(1)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET C(1)           LOC="P115" |> [BPC3011-Papilio_Pro-general.ucf(65)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(65)]: NET "C(1)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET C(2)           LOC="P116" |>
+   [BPC3011-Papilio_Pro-general.ucf(66)]: NET "C(2)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET C(2)           LOC="P116" |> [BPC3011-Papilio_Pro-general.ucf(66)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(66)]: NET "C(2)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET C(3)           LOC="P117" |>
+   [BPC3011-Papilio_Pro-general.ucf(67)]: NET "C(3)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET C(3)           LOC="P117" |> [BPC3011-Papilio_Pro-general.ucf(67)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(67)]: NET "C(3)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET C(4)           LOC="P118" |>
+   [BPC3011-Papilio_Pro-general.ucf(68)]: NET "C(4)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET C(4)           LOC="P118" |> [BPC3011-Papilio_Pro-general.ucf(68)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(68)]: NET "C(4)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET C(5)           LOC="P119" |>
+   [BPC3011-Papilio_Pro-general.ucf(69)]: NET "C(5)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET C(5)           LOC="P119" |> [BPC3011-Papilio_Pro-general.ucf(69)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(69)]: NET "C(5)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET C(6)           LOC="P120" |>
+   [BPC3011-Papilio_Pro-general.ucf(70)]: NET "C(6)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET C(6)           LOC="P120" |> [BPC3011-Papilio_Pro-general.ucf(70)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(70)]: NET "C(6)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET C(7)           LOC="P121" |>
+   [BPC3011-Papilio_Pro-general.ucf(71)]: NET "C(7)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET C(7)           LOC="P121" |> [BPC3011-Papilio_Pro-general.ucf(71)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(71)]: NET "C(7)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET C(8)           LOC="P123" |>
+   [BPC3011-Papilio_Pro-general.ucf(72)]: NET "C(8)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET C(8)           LOC="P123" |> [BPC3011-Papilio_Pro-general.ucf(72)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(72)]: NET "C(8)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET C(9)           LOC="P124" |>
+   [BPC3011-Papilio_Pro-general.ucf(73)]: NET "C(9)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET C(9)           LOC="P124" |> [BPC3011-Papilio_Pro-general.ucf(73)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(73)]: NET "C(9)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET C(10)          LOC="P126" |>
+   [BPC3011-Papilio_Pro-general.ucf(74)]: NET "C(10)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET C(10)          LOC="P126" |> [BPC3011-Papilio_Pro-general.ucf(74)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(74)]: NET "C(10)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET C(11)          LOC="P127" |>
+   [BPC3011-Papilio_Pro-general.ucf(75)]: NET "C(11)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET C(11)          LOC="P127" |> [BPC3011-Papilio_Pro-general.ucf(75)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(75)]: NET "C(11)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET C(12)          LOC="P131" |>
+   [BPC3011-Papilio_Pro-general.ucf(76)]: NET "C(12)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET C(12)          LOC="P131" |> [BPC3011-Papilio_Pro-general.ucf(76)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(76)]: NET "C(12)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET C(13)          LOC="P132" |>
+   [BPC3011-Papilio_Pro-general.ucf(77)]: NET "C(13)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET C(13)          LOC="P132" |> [BPC3011-Papilio_Pro-general.ucf(77)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(77)]: NET "C(13)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET C(14)          LOC="P133" |>
+   [BPC3011-Papilio_Pro-general.ucf(78)]: NET "C(14)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET C(14)          LOC="P133" |> [BPC3011-Papilio_Pro-general.ucf(78)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(78)]: NET "C(14)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET C(15)          LOC="P134" |>
+   [BPC3011-Papilio_Pro-general.ucf(79)]: NET "C(15)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET C(15)          LOC="P134" |> [BPC3011-Papilio_Pro-general.ucf(79)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(79)]: NET "C(15)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_ADDR(0)  LOC="P140" |>
+   [BPC3011-Papilio_Pro-general.ucf(80)]: NET "SDRAM_ADDR(0)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_ADDR(0)  LOC="P140" |> [BPC3011-Papilio_Pro-general.ucf(80)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(80)]: NET "SDRAM_ADDR(0)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_ADDR(1)  LOC="P139" |>
+   [BPC3011-Papilio_Pro-general.ucf(81)]: NET "SDRAM_ADDR(1)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_ADDR(1)  LOC="P139" |> [BPC3011-Papilio_Pro-general.ucf(81)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(81)]: NET "SDRAM_ADDR(1)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_ADDR(2)  LOC="P138" |>
+   [BPC3011-Papilio_Pro-general.ucf(82)]: NET "SDRAM_ADDR(2)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_ADDR(2)  LOC="P138" |> [BPC3011-Papilio_Pro-general.ucf(82)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(82)]: NET "SDRAM_ADDR(2)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_ADDR(3)  LOC="P137" |>
+   [BPC3011-Papilio_Pro-general.ucf(83)]: NET "SDRAM_ADDR(3)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_ADDR(3)  LOC="P137" |> [BPC3011-Papilio_Pro-general.ucf(83)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(83)]: NET "SDRAM_ADDR(3)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_ADDR(4)  LOC="P46"  |>
+   [BPC3011-Papilio_Pro-general.ucf(84)]: NET "SDRAM_ADDR(4)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_ADDR(4)  LOC="P46"  |> [BPC3011-Papilio_Pro-general.ucf(84)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(84)]: NET "SDRAM_ADDR(4)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_ADDR(5)  LOC="P45"  |>
+   [BPC3011-Papilio_Pro-general.ucf(85)]: NET "SDRAM_ADDR(5)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_ADDR(5)  LOC="P45"  |> [BPC3011-Papilio_Pro-general.ucf(85)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(85)]: NET "SDRAM_ADDR(5)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_ADDR(6)  LOC="P44"  |>
+   [BPC3011-Papilio_Pro-general.ucf(86)]: NET "SDRAM_ADDR(6)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_ADDR(6)  LOC="P44"  |> [BPC3011-Papilio_Pro-general.ucf(86)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(86)]: NET "SDRAM_ADDR(6)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_ADDR(7)  LOC="P43"  |>
+   [BPC3011-Papilio_Pro-general.ucf(87)]: NET "SDRAM_ADDR(7)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_ADDR(7)  LOC="P43"  |> [BPC3011-Papilio_Pro-general.ucf(87)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(87)]: NET "SDRAM_ADDR(7)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_ADDR(8)  LOC="P41"  |>
+   [BPC3011-Papilio_Pro-general.ucf(88)]: NET "SDRAM_ADDR(8)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_ADDR(8)  LOC="P41"  |> [BPC3011-Papilio_Pro-general.ucf(88)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(88)]: NET "SDRAM_ADDR(8)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_ADDR(9)  LOC="P40"  |>
+   [BPC3011-Papilio_Pro-general.ucf(89)]: NET "SDRAM_ADDR(9)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_ADDR(9)  LOC="P40"  |> [BPC3011-Papilio_Pro-general.ucf(89)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(89)]: NET "SDRAM_ADDR(9)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_ADDR(10) LOC="P141" |>
+   [BPC3011-Papilio_Pro-general.ucf(90)]: NET "SDRAM_ADDR(10)" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_ADDR(10) LOC="P141" |> [BPC3011-Papilio_Pro-general.ucf(90)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(90)]: NET "SDRAM_ADDR(10)" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_ADDR(11) LOC="P35"  |>
+   [BPC3011-Papilio_Pro-general.ucf(91)]: NET "SDRAM_ADDR(11)" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_ADDR(11) LOC="P35"  |> [BPC3011-Papilio_Pro-general.ucf(91)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(91)]: NET "SDRAM_ADDR(11)" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_ADDR(12) LOC="P34"  |>
+   [BPC3011-Papilio_Pro-general.ucf(92)]: NET "SDRAM_ADDR(12)" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_ADDR(12) LOC="P34"  |> [BPC3011-Papilio_Pro-general.ucf(92)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(92)]: NET "SDRAM_ADDR(12)" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_DATA(0)  LOC="P9"   |>
+   [BPC3011-Papilio_Pro-general.ucf(93)]: NET "SDRAM_DATA(0)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_DATA(0)  LOC="P9"   |> [BPC3011-Papilio_Pro-general.ucf(93)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(93)]: NET "SDRAM_DATA(0)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_DATA(1)  LOC="P10"  |>
+   [BPC3011-Papilio_Pro-general.ucf(94)]: NET "SDRAM_DATA(1)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_DATA(1)  LOC="P10"  |> [BPC3011-Papilio_Pro-general.ucf(94)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(94)]: NET "SDRAM_DATA(1)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_DATA(2)  LOC="P11"  |>
+   [BPC3011-Papilio_Pro-general.ucf(95)]: NET "SDRAM_DATA(2)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_DATA(2)  LOC="P11"  |> [BPC3011-Papilio_Pro-general.ucf(95)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(95)]: NET "SDRAM_DATA(2)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_DATA(3)  LOC="P12"  |>
+   [BPC3011-Papilio_Pro-general.ucf(96)]: NET "SDRAM_DATA(3)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_DATA(3)  LOC="P12"  |> [BPC3011-Papilio_Pro-general.ucf(96)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(96)]: NET "SDRAM_DATA(3)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_DATA(4)  LOC="P14"  |>
+   [BPC3011-Papilio_Pro-general.ucf(97)]: NET "SDRAM_DATA(4)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_DATA(4)  LOC="P14"  |> [BPC3011-Papilio_Pro-general.ucf(97)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(97)]: NET "SDRAM_DATA(4)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_DATA(5)  LOC="P15"  |>
+   [BPC3011-Papilio_Pro-general.ucf(98)]: NET "SDRAM_DATA(5)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_DATA(5)  LOC="P15"  |> [BPC3011-Papilio_Pro-general.ucf(98)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(98)]: NET "SDRAM_DATA(5)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_DATA(6)  LOC="P16"  |>
+   [BPC3011-Papilio_Pro-general.ucf(99)]: NET "SDRAM_DATA(6)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_DATA(6)  LOC="P16"  |> [BPC3011-Papilio_Pro-general.ucf(99)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(99)]: NET "SDRAM_DATA(6)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_DATA(7)  LOC="P8"   |>
+   [BPC3011-Papilio_Pro-general.ucf(100)]: NET "SDRAM_DATA(7)" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_DATA(7)  LOC="P8"   |> [BPC3011-Papilio_Pro-general.ucf(100)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(100)]: NET "SDRAM_DATA(7)" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_DATA(8)  LOC="P21"  |>
+   [BPC3011-Papilio_Pro-general.ucf(101)]: NET "SDRAM_DATA(8)" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_DATA(8)  LOC="P21"  |> [BPC3011-Papilio_Pro-general.ucf(101)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(101)]: NET "SDRAM_DATA(8)" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_DATA(9)  LOC="P22"  |>
+   [BPC3011-Papilio_Pro-general.ucf(102)]: NET "SDRAM_DATA(9)" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_DATA(9)  LOC="P22"  |> [BPC3011-Papilio_Pro-general.ucf(102)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(102)]: NET "SDRAM_DATA(9)" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_DATA(10) LOC="P23"  |>
+   [BPC3011-Papilio_Pro-general.ucf(103)]: NET "SDRAM_DATA(10)" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_DATA(10) LOC="P23"  |> [BPC3011-Papilio_Pro-general.ucf(103)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(103)]: NET "SDRAM_DATA(10)" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_DATA(11) LOC="P24"  |>
+   [BPC3011-Papilio_Pro-general.ucf(104)]: NET "SDRAM_DATA(11)" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_DATA(11) LOC="P24"  |> [BPC3011-Papilio_Pro-general.ucf(104)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(104)]: NET "SDRAM_DATA(11)" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_DATA(12) LOC="P26"  |>
+   [BPC3011-Papilio_Pro-general.ucf(105)]: NET "SDRAM_DATA(12)" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_DATA(12) LOC="P26"  |> [BPC3011-Papilio_Pro-general.ucf(105)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(105)]: NET "SDRAM_DATA(12)" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_DATA(13) LOC="P27"  |>
+   [BPC3011-Papilio_Pro-general.ucf(106)]: NET "SDRAM_DATA(13)" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_DATA(13) LOC="P27"  |> [BPC3011-Papilio_Pro-general.ucf(106)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(106)]: NET "SDRAM_DATA(13)" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_DATA(14) LOC="P29"  |>
+   [BPC3011-Papilio_Pro-general.ucf(107)]: NET "SDRAM_DATA(14)" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_DATA(14) LOC="P29"  |> [BPC3011-Papilio_Pro-general.ucf(107)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(107)]: NET "SDRAM_DATA(14)" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_DATA(15) LOC="P30"  |>
+   [BPC3011-Papilio_Pro-general.ucf(108)]: NET "SDRAM_DATA(15)" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_DATA(15) LOC="P30"  |> [BPC3011-Papilio_Pro-general.ucf(108)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(108)]: NET "SDRAM_DATA(15)" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_DQML     LOC="P7"   |>
+   [BPC3011-Papilio_Pro-general.ucf(109)]: NET "SDRAM_DQML" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_DQML     LOC="P7"   |> [BPC3011-Papilio_Pro-general.ucf(109)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(109)]: NET "SDRAM_DQML" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_DQMH     LOC="P17"  |>
+   [BPC3011-Papilio_Pro-general.ucf(110)]: NET "SDRAM_DQMH" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_DQMH     LOC="P17"  |> [BPC3011-Papilio_Pro-general.ucf(110)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(110)]: NET "SDRAM_DQMH" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_BA(0)    LOC="P143" |>
+   [BPC3011-Papilio_Pro-general.ucf(111)]: NET "SDRAM_BA(0)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_BA(0)    LOC="P143" |> [BPC3011-Papilio_Pro-general.ucf(111)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(111)]: NET "SDRAM_BA(0)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_BA(1)    LOC="P142" |>
+   [BPC3011-Papilio_Pro-general.ucf(112)]: NET "SDRAM_BA(1)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_BA(1)    LOC="P142" |> [BPC3011-Papilio_Pro-general.ucf(112)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(112)]: NET "SDRAM_BA(1)" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_nWE      LOC="P6"   |>
+   [BPC3011-Papilio_Pro-general.ucf(113)]: NET "SDRAM_nWE" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_nWE      LOC="P6"   |> [BPC3011-Papilio_Pro-general.ucf(113)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(113)]: NET "SDRAM_nWE" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_nCAS     LOC="P5"   |>
+   [BPC3011-Papilio_Pro-general.ucf(114)]: NET "SDRAM_nCAS" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_nCAS     LOC="P5"   |> [BPC3011-Papilio_Pro-general.ucf(114)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(114)]: NET "SDRAM_nCAS" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_nRAS     LOC="P2"   |>
+   [BPC3011-Papilio_Pro-general.ucf(115)]: NET "SDRAM_nRAS" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_nRAS     LOC="P2"   |> [BPC3011-Papilio_Pro-general.ucf(115)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(115)]: NET "SDRAM_nRAS" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_CS       LOC="P1"   |>
+   [BPC3011-Papilio_Pro-general.ucf(116)]: NET "SDRAM_CS" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_CS       LOC="P1"   |> [BPC3011-Papilio_Pro-general.ucf(116)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(116)]: NET "SDRAM_CS" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_CLK      LOC="P32"  |>
+   [BPC3011-Papilio_Pro-general.ucf(117)]: NET "SDRAM_CLK" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_CLK      LOC="P32"  |> [BPC3011-Papilio_Pro-general.ucf(117)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(117)]: NET "SDRAM_CLK" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SDRAM_CKE      LOC="P33"  |>
+   [BPC3011-Papilio_Pro-general.ucf(118)]: NET "SDRAM_CKE" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDRAM_CKE      LOC="P33"  |> [BPC3011-Papilio_Pro-general.ucf(118)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [BPC3011-Papilio_Pro-general.ucf(118)]: NET "SDRAM_CKE" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET JTAG_TMS       LOC="P107" |>
+   [BPC3011-Papilio_Pro-general.ucf(120)]: NET "JTAG_TMS" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET JTAG_TMS       LOC="P107" |> [BPC3011-Papilio_Pro-general.ucf(120)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [BPC3011-Papilio_Pro-general.ucf(120)]: NET "JTAG_TMS" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [BPC3011-Papilio_Pro-general.ucf(120)]: NET "JTAG_TMS" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;>
+   [BPC3011-Papilio_Pro-general.ucf(120)]: NET "JTAG_TMS" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET JTAG_TCK       LOC="P109" |>
+   [BPC3011-Papilio_Pro-general.ucf(121)]: NET "JTAG_TCK" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET JTAG_TCK       LOC="P109" |> [BPC3011-Papilio_Pro-general.ucf(121)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [BPC3011-Papilio_Pro-general.ucf(121)]: NET "JTAG_TCK" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [BPC3011-Papilio_Pro-general.ucf(121)]: NET "JTAG_TCK" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;>
+   [BPC3011-Papilio_Pro-general.ucf(121)]: NET "JTAG_TCK" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET JTAG_TDI       LOC="P110" |>
+   [BPC3011-Papilio_Pro-general.ucf(122)]: NET "JTAG_TDI" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET JTAG_TDI       LOC="P110" |> [BPC3011-Papilio_Pro-general.ucf(122)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [BPC3011-Papilio_Pro-general.ucf(122)]: NET "JTAG_TDI" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [BPC3011-Papilio_Pro-general.ucf(122)]: NET "JTAG_TDI" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;>
+   [BPC3011-Papilio_Pro-general.ucf(122)]: NET "JTAG_TDI" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET JTAG_TDO       LOC="P106" |>
+   [BPC3011-Papilio_Pro-general.ucf(123)]: NET "JTAG_TDO" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET JTAG_TDO       LOC="P106" |> [BPC3011-Papilio_Pro-general.ucf(123)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [BPC3011-Papilio_Pro-general.ucf(123)]: NET "JTAG_TDO" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [BPC3011-Papilio_Pro-general.ucf(123)]: NET "JTAG_TDO" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;>
+   [BPC3011-Papilio_Pro-general.ucf(123)]: NET "JTAG_TDO" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET FLASH_CS       LOC="P38"  |>
+   [BPC3011-Papilio_Pro-general.ucf(124)]: NET "FLASH_CS" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET FLASH_CS       LOC="P38"  |> [BPC3011-Papilio_Pro-general.ucf(124)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [BPC3011-Papilio_Pro-general.ucf(124)]: NET "FLASH_CS" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [BPC3011-Papilio_Pro-general.ucf(124)]: NET "FLASH_CS" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;>
+   [BPC3011-Papilio_Pro-general.ucf(124)]: NET "FLASH_CS" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET FLASH_CK       LOC="P70"  |>
+   [BPC3011-Papilio_Pro-general.ucf(125)]: NET "FLASH_CK" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET FLASH_CK       LOC="P70"  |> [BPC3011-Papilio_Pro-general.ucf(125)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [BPC3011-Papilio_Pro-general.ucf(125)]: NET "FLASH_CK" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [BPC3011-Papilio_Pro-general.ucf(125)]: NET "FLASH_CK" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;>
+   [BPC3011-Papilio_Pro-general.ucf(125)]: NET "FLASH_CK" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET FLASH_SI       LOC="P64"  |>
+   [BPC3011-Papilio_Pro-general.ucf(126)]: NET "FLASH_SI" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET FLASH_SI       LOC="P64"  |> [BPC3011-Papilio_Pro-general.ucf(126)]'
+   could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [BPC3011-Papilio_Pro-general.ucf(126)]: NET "FLASH_SI" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [BPC3011-Papilio_Pro-general.ucf(126)]: NET "FLASH_SI" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;>
+   [BPC3011-Papilio_Pro-general.ucf(126)]: NET "FLASH_SI" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem - The Period constraint <PERIOD=31.25ns;>
+   [BPC3011-Papilio_Pro-general.ucf(29)], is specified using the Net Period
+   method which is not recommended. Please use the Timespec PERIOD method.
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  95
+
+Total memory usage is 400388 kilobytes
+
+Writing NGD file "led.ngd" ...
+Total REAL time to NGDBUILD completion:  2 sec
+Total CPU time to NGDBUILD completion:   2 sec
+
+Writing NGDBUILD log file "led.bld"...
